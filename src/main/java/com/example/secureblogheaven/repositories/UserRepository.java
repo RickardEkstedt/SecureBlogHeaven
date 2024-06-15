@@ -1,2 +1,10 @@
-package com.example.secureblogheaven.repositories;public interface UserRepository {
+package com.example.secureblogheaven.repositories;
+
+import com.example.secureblogheaven.entities.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+
 }

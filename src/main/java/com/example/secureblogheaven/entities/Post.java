@@ -1,4 +1,4 @@
-package com.example.secureblogheaven.enteties;
+package com.example.secureblogheaven.entities;
 
 import jakarta.persistence.*;
 

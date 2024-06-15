@@ -1,4 +1,4 @@
-package com.wigellkoncernen.biluthyrning.exceptions;
+package com.example.secureblogheaven.execptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

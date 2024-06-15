@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Heavan {
+public class SecureBlogHeavenApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SecureBlogHeavenApplication.class, args);

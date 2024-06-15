@@ -1,6 +1,7 @@
-package com.example.secureblogheaven.enteties;
+package com.example.secureblogheaven.entities;
 
 import jakarta.persistence.*;
+import org.antlr.v4.runtime.misc.NotNull;
 
 @Entity
 public class User {
@@ -13,7 +14,8 @@ public class User {
     @Column(length = 25, nullable = false)
     private String lastName;
     @ManyToOne
-    @JoinColumn(name = "address_id")
+    @JoinColumn(name = "address_id", nullable = false)
+
     private Address address;
     @Column(length = 35, nullable = false)
     private String email;
